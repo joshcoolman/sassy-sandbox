@@ -7,7 +7,7 @@
     --maroon: rgb(110, 9, 9);
     --red: rgb(214, 25, 57);
     --hot-pink: rgb(204, 41, 204);
-    --orange: rgb(214, 101, 25);
+    --orange: rgb(255, 99, 71);
     --yellow: rgb(214, 164, 25);
     --cyan: rgb(24, 119, 163);
     --aqua: rgb(19, 138, 128);
@@ -16,9 +16,11 @@
     --blue: rgb(47, 63, 133);
     --purple: rgb(101, 32, 133);
     --black: #222;
+    --medium-gray: #555;
     --gray: #777;
     --gray-lt: #ccc;
     --white: rgb(250, 250, 250);
+    --tint-gray: rgb(192, 187, 187);
     --tint-blue: rgb(216, 233, 236);
     --tint-yellow: rgb(247, 246, 217);
 }
@@ -27,22 +29,22 @@
 :root {
     --base-font: "Roboto";
     --base-unit: 10px;
-    --base-width: 750px;
+    --base-width: 700px;
 }
 
 // dom vars
 :root {
-    --h1: var(--red);
-    --body-bg: var(--gray);
+    --h1: var(--orange);
+    --body-bg: var(--black);
     --body-txt: var(--gray-lt);
-    --layout-bg: var(--white);
-    --card-bg: var(--tint-blue);
-    --color-txt: var(--black);
+    --layout-bg: var(--medium-gray);
+    --card-bg: var(--black);
+    --color-txt: var(--tint-gray);
 }
 
 // grid vars
 :root {
-    --gap: 5px;
+    --gap: 10px;
     --col-count: 3;
     --col-width: calc(100% / var(--col-count) - var(--gap));
     --grid: repeat(auto-fill, minmax(var(--col-width), 1fr));
