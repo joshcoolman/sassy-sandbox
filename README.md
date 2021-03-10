@@ -5,9 +5,8 @@ A simple sass setup with Parcel for playing with css with live reloading.
 ![app screen shots](https://firebasestorage.googleapis.com/v0/b/images-aae96.appspot.com/o/sassy-sandbox.png?alt=media&token=079224cb-eef5-41d5-8b7f-ae4a37a3bdd9)
 
 ### Snippets
-
+Grid styles using vars and calc:
 ```css
-// Grid styles examples with vars and calc:
 
 :root {
     --gap: 10px;
