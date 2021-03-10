@@ -1,0 +1,20 @@
+{
+    "name": "sassy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "parcel": "^2.0.0-nightly.619"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.0.0-nightly.621",
+        "sass": "^1.32.8"
+    }
+}
