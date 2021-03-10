@@ -31,12 +31,12 @@ Example of inline styles to span rows and cols in Grid for the first child of th
 ```html
         <div class="grid">
                 <div class="card" style="grid-column: 1 / 3; grid-row: 1 / 3;">
-                    <h4>Some Stuff</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut quae at quos excepturi in.</p>
+                    <h4>A Snappy Title</h4>
+                    <p>Lorem ipsum dolor sit amet...</p>
                 </div>
                 <div class="card">
-                    <h4>Some Stuff</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut quae at quos excepturi in.</p>
+                    <h4>Some Header</h4>
+                    <p>Lorem ipsum dolor sit amet...</p>
                 </div>
                 {...}
 ```
