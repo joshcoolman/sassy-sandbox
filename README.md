@@ -1,5 +1,5 @@
 
-#### Sassy SandBox  
+## Sassy SandBox  
 A simple sass setup with parcel for playing with css with live reloading.
 
 
