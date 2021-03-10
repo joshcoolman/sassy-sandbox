@@ -27,6 +27,20 @@ Grid styles using vars and calc:
 }
 ```
 
+Example of inline styles to span rows and cols in Grid for the first child of the Grid class (above)
+```html
+        <div class="grid">
+                <div class="card" style="grid-column: 1 / 3; grid-row: 1 / 3;">
+                    <h4>Some Stuff</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut quae at quos excepturi in.</p>
+                </div>
+                <div class="card">
+                    <h4>Some Stuff</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut quae at quos excepturi in.</p>
+                </div>
+                {...}
+```
+
 
 ### Run Locally:
 Run the following commands in terminal from the root of the project:
